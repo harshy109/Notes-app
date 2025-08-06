@@ -61,9 +61,6 @@ notesDiv.addEventListener("click", function(e){
         notes = document.querySelectorAll(".input-box");
         notes.forEach(nt => {
             nt.addEventListener("keyup", updateStorage());
-            // nt.onkeyup = function(){
-            //     updateStorage();
-            // }
         });
     }
 })
